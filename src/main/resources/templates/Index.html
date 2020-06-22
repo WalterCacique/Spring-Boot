@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Liga de Futbol</title>
+<link rel="StyleSheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="Contenedor"> <!-- Contiene todo lo que hay adentro de body -->
+		<header>
+			<h1>Liga de Futbol Profesional</h1>
+		</header>
+		<nav> <!-- Menu de la pagina -->
+			<ul>
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="Fixture.html">Fixture y Resultados</a></li>
+				<li><a href="Equipos.html">Equipos</a></li>
+			</ul>
+			<div id="welcome">
+				<h4 th:text= " 'Bienvenido!' + ${usuario}"></h4>
+			</div>
+		</nav>
+		<section id="Contenido"> <!-- Caja que contiene las noticas de la pagina -->
+			<h2>Ultimas Noticias</h2>
+			<article>
+				<img src="img/not.jpg" width="95%" height="100px">
+				<h3>Suarez, un delantero cumplidor</h3>
+				<p>09/05/2020</p>
+				<p>Mientras pasa la cuarentena en Cordoba, Matias Suarez celebra
+					hoy sus 32 años y entre sus deseos estara que vuelva pronto el
+					futbol. Y como tambien cumple en River, el club ya piensa en
+					renovarle hasta 2023.</p>
+			</article>
+			<article>
+				<img src="img/not1.jpg" width="95%" height="100px">
+				<h3>FIFA 20:El Kun Agüero se abre Twitch y comparte sus
+					partidos</h3>
+				<p>22/04/2020</p>
+				<p>El delantero del Manchester City se ha metido tambien en el
+					mundo de los videojuegos a traves de trasmisiones de sus partidas
+					del simulador de EA Sports a traves de Twitch. No paso mucho tiempo
+					antes de que comenzara a jugar con la comunidad.</p>
+			</article>
+			<article>
+				<img src="img/not2.jpg" width="95%" height="100px">
+				<h3>Mas de 100 mil pesos por el saco de Gallardo</h3>
+				<p>09/05/2020</p>
+				<p>El Muñeco dono su emblematico atuendo para ayudar a los
+					comedores de una parroquia y la subasta crece y crece. El cierre es
+					este jueves...</p>
+			</article>
+			<article>
+				<img src="img/not3.jpg" width="95%" height="100px">
+				<h3>El dia que Vilas aconsejo a Nadal</h3>
+				<p>08/05/2020</p>
+				<p>Toni Nadal narro detalles de una charla que tuvieron Willy y
+					Rafa en la previa a la consagracion del primer titulo en la carrera
+					del español en el ATP de Sopot.</p>
+			</article>
+			<article>
+				<img src="img/not4.jpg" width="95%" height="100px">
+				<h3>Los seis nombres por Lautaro</h3>
+				<p>07/05/2020</p>
+				<p>El Barcelona le ofrece al Inter a elegir dos futbolistas de
+					un sexteto para bajar la clausula de 110 millones de euros por el
+					delantero argentino.</p>
+			</article>
+			<article>
+				<img src="img/not5.jpg" width="95%" height="100px">
+				<h3>Van Dijk y su reflexion sobre la cuarentena</h3>
+				<p>09/05/2020</p>
+				<p>“Te hace pensar lo dificil que debe ser para un jugador tomar
+					la decision de retirarse”, explico el defensor figura del
+					Liverpool.</p>
+			</article>
+
+		</section>
+		<aside> <!-- Publicida de la pagina -->
+			<h2>Auspiciantes</h2>
+			<img src="img/logo.jpg" width="100%" height="23%"> <img
+				src="img/logo1.jpg" width="100%" height="23%"> <img
+				src="img/logo2.png" width="100%" height="23%"> <img
+				src="img/logo3.png" width="100%" height="23%">
+		</aside>
+		<footer> <!-- Pie de la pagina -->
+			<div id="formt"> <!-- Caja que contiene las etiquetas que conforma el pie de pagina -->
+				<ul>
+					<li><img src="img/icono.png">
+					<p>388-4149489</p></li>
+
+					<li><img src="img/icono1.png" width="25" height="25">
+					<p>LaLiga</p></li>
+
+					<li><img src="img/icono2.png">
+					<p>LaLiga_F</p></li>
+
+					<li><h2>Avda.Libertad N°777 - Tel:388-4149489</h2></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>

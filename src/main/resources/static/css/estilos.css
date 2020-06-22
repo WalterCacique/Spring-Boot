@@ -1,0 +1,283 @@
+*{ 
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url("../img/fondo2.jpg");
+	background-size: 100% 100%;
+	
+}
+
+#Contenedor{
+	margin: 10px;
+}
+
+/* Le da estilo al encabezado de la pagina*/
+header{ 
+	height: 180px;
+	background-image: url("../img/portada1.jpg");
+	background-size: 100% 100%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+/*Le da estilo al titulo del encabezado de la pagina */
+header h1{
+	font-size: 60px;
+	text-align: center;
+	line-height: 150px;
+	font: italic;
+	color: white;
+}
+
+/* Le da estilo a la caja que contiene el menu de la pagina */
+nav{
+	background: #01DF01;
+	height: 55px;
+	margin-left: 3%;
+	margin-right: 3%;	
+}
+
+nav h4{
+	margin-bottom: 5px;	
+}
+
+#welcome{
+	float: right;
+}
+
+/* Le da estilo a la lista del menu */
+nav ul li{
+	list-style: inside;
+	display: inline-block;
+	color:#ff0000;
+	margin-top: 20px;
+}
+
+/* Le da estilo a los enlaces de que contiene el menu*/
+li a{
+	text-decoration: none; /*  Le quita el subrayado del enlace*/
+	padding: 20px;
+}
+
+/* Le da estilo a los enlaces: Al pasar el cursor sobre los enlaces cambiara de color*/
+li a:hover{
+		background: #00FF40;
+		cursor: pointer;
+}
+
+/*  Le da estilo a la caja que contiene las noticias de la pagina (Index.html)*/
+#Contenido{
+	color: #000000;
+	width: 72%;
+	height: 500px;
+	background: #8080ff;
+	float: left;
+	overflow-y: scroll; /* Coloca la barra desplazadora a la caja */
+	margin-left: 3%;
+	margin-top: 10px;
+	
+}
+
+/*  Le da estilo a los titulos de los articulos*/
+section h2{
+	color:black;
+	background-color: #58FAF4;
+	margin: 6px;
+}
+
+/*  Le da estilo al articulo que contiene las noticias*/
+article{
+	width: 25%;
+	height: 65%;
+	border: 3px solid black;
+	float: left;
+	margin-left: 6%;
+	margin-bottom: 2%;
+	margin-top:2%;
+	background: white;
+	overflow: hidden; /* Permite que el contenido que hay adentro del articulo no desborde*/
+}
+
+/*  Le da estilo al titulo del articulo */
+article h3{
+	margin-left: 3px;
+}
+
+/*  Le da estilo al parrafo del articulo*/
+article p{
+	font-size: 4mm;
+	margin: 2px;
+	width: 100%;
+}
+
+/*  Le da estilo al parrafo de la pagina*/
+p{
+	text-align: left;
+	margin: 2px;
+}
+
+/*  Le da estilo al imagen que hay adentro del articulo*/
+article img{
+margin: 5px;
+}
+
+/*  Le da estilo a la caja que contiene la publicidad*/
+aside{
+	width: 20%;
+	height: 500px;
+	background:threedhighlight;
+	margin-top:10px;
+	margin-right: 3%;
+	margin-bottom:10px;
+	float: right;
+}
+
+/*  Le da estilo al titulo de la publicidad*/
+aside h2{
+	color: olive;
+	text-align: center;
+	background: #58FAF4;
+	margin: 5px;
+}
+
+/*  Le da estilo a la caja que contiene el pie de la pagina*/
+footer{
+	background:#82FA58;
+	height: 70px;
+	clear: both; /*  Permite que la caja de pie de pagina lo coloque abajo de todo */
+	margin-left: 3%;
+	padding: 0;
+	margin-right: 3%;
+}
+
+/*  Le da estilo al titulo de pie de pagina*/
+footer h2{
+	font-size: 15px;
+	text-align: left;
+	line-height: 15px;
+	
+}
+
+/*  Le da estilo a la lista que esta adentro del footer*/
+footer ul li{
+	list-style: inside;
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 5px;
+	margin-right: 15px;
+	text-align: center;
+	
+}
+
+/*  Le da estilo a la caja que contiene la tabla*/
+#Fix{
+	color: #000000;
+	width: 72%;
+	height: 500px;
+	background: #8080ff;
+	float: left;
+	margin-top: 10px;
+	margin-left: 3%;
+	text-align: center;
+}
+
+/*  Le da estilo a la tabla*/
+table{
+	border: 2px solid #ccc;
+	border-collapse: collapse; /*  Colapse los bordes interiores de la tabla */
+	margin-left: 18%;
+	margin-right: 15%;
+	margin-top: 5%;
+	background: #C0C0C0;
+
+}
+
+/*  Le da estilo a los parrafos de la tabla*/
+table p{
+	float: left;
+	font-size: 20px;
+	font-family: 'calibri'; /*  Fuente del parrafo */
+}
+
+/*  Le da estilo a la imagen que esta en la tabla*/
+td img{
+	float: left;
+	margin: 3px;
+}
+
+/*  Le da estilo a las celdas de la primer fila de la tabla */
+th{
+	padding: 20px;
+	font-size: 20px;
+	font-family: 'calibri';
+}
+
+/*  Le da estilo a las celdas que estan debajo de la primera fila de la tabla*/
+td{
+	border: 2px solid #ccc;
+	padding: 20px;
+}
+
+/*  Le da un color de fondo a la primer fila de la tabla al pasar el cursor*/
+table tr:hover{
+	background: gray;
+}
+
+/*  Le da estilo al articulo de la pagina Equipos.html */
+#Equipo{
+	width: 90%;
+	height: 250px;
+	margin: 20px;
+}
+
+/*  Le da estilo a la foto del articulo de la pagina Equipos.html*/
+#Equipo img{
+	float: left;
+	margin: auto;
+}
+
+/*  Le da estilo al articulo de la pagina Equipos.html */
+#Equipo1{
+	width: 90%;
+	height: 250px;
+	margin: 20px;
+}
+
+/*  Le da estilo a la foto del articulo de la pagina Equipos.html*/
+#Equipo1 img{
+	float: left;
+	margin: auto;
+}
+
+/*  Le da estilo al articulo de la pagina Equipos.html */
+#Equipo2{
+	width: 90%;
+	height: 250px;
+	margin: 20px;
+}
+
+/*  Le da estilo a la foto del articulo de la pagina Equipos.html*/
+#Equipo2 img{
+	float: left;
+	margin: 30px;
+}
+
+/* Le da estilo al parrafo del articulo */
+#Equipo2 p{
+	padding: 5px;
+}
+
+/*  Le da estilo al articulo de la pagina Equipos.html */
+#Equipo3{
+	width: 90%;
+	height: 250px;
+	margin: 20px;
+}
+
+/*  Le da estilo a la foto del articulo de la pagina Equipos.html*/
+#Equipo3 img{
+	float: left;
+	margin: 20px;
+}
